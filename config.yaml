@@ -1,0 +1,1 @@
+base: "D:/AIML/detectron2-main/detectron2/model_zoo/configs/Misc/mask_rcnn_R_50_FPN_3x_gn.yaml"
