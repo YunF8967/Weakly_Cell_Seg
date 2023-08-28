@@ -29,4 +29,4 @@ class MyTrainer(DefaultTrainer):
     
     @classmethod
     def build_evaluator(cls, cfg, dataset_name):
-        return COCOEvaluator(dataset_name, ("segm",), output_dir = cfg.OUTPUT_DIR)
+        return COCOEvaluator(dataset_name, ("bbox", "segm",), output_dir = cfg.OUTPUT_DIR)
